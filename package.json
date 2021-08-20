@@ -1,0 +1,34 @@
+{
+  "name": "netflixbackend-bench-m5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./server.js",
+    "dev": "nodemon -e js -r dotenv/config server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Koulinn/NetflixBackend-Bench-M5.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Koulinn/NetflixBackend-Bench-M5/issues"
+  },
+  "homepage": "https://github.com/Koulinn/NetflixBackend-Bench-M5#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1",
+    "fs-extra": "^10.0.0",
+    "http-errors": "^1.8.0",
+    "multer": "^1.4.3",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
