@@ -9,7 +9,6 @@ const server = express()
 
 
 
-
 server.use(express.json())
 server.use(cors(corsConfig))
 server.use('/media', mediaRouter)
