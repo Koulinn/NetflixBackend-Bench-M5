@@ -1,11 +1,13 @@
 import  express  from "express";
-import {getOMDBData, checkMovieOnJSON} from '../../lib/service-utils.js'
+import {getOMDBData, checkMovieOnJSON, editMovieText} from '../../lib/service-utils.js'
+import {movieFieldsValidation} from '../../lib/validations.js'
 
 
 
 const mediaRouter = express.Router()
 
 mediaRouter.get("/", checkMovieOnJSON, getOMDBData)
-mediaRouter.put('/:id')
+mediaRouter.put('/:id', editMovieText)
+mediaRouter.post('/:id', editMovieText)
 
 export default mediaRouter

@@ -2,30 +2,25 @@ import express from 'express'
 import cors from 'cors'
 import {corsConfig} from './lib/server-config.js'
 import mediaRouter from './services/media/index.js'
+import { notFoundErrorHandler, badRequestErrorHandler, serverErrorHandler } from './lib/error-Handlers.js'
 
 
 const server = express()
 
 
 
-// const trustOrigins = [process.env.FE_DEV_TRUST_URL, process.env.FE_PROD_TRUST_URL]
 
-
-// const setCorsConfig = {
-//     origin: function(origin, callback){
-//         if(!origin || listTrustableOrigins.includes(origin)){
-//             callback(null, true)
-//         } else{
-//             callback(new Error('Origin not allowed'))
-//         }
-//     }
-// }
-
+server.use(express.json())
 server.use(cors(corsConfig))
 server.use('/media', mediaRouter)
 
 
 // Errors middlewares
+server.use(notFoundErrorHandler)
+server.use(badRequestErrorHandler)
+server.use(serverErrorHandler)
+
+
 
 
 const port = process.env.PORT
