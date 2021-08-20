@@ -1,16 +1,10 @@
 import  express  from "express";
+import {getOMDBData, checkMovieOnJSON} from '../../lib/service-utils.js'
+
+
 
 const mediaRouter = express.Router()
 
-mediaRouter.get("/", (req, res, next) => {
-    try {
-      console.log('inside media route GET')
-      res.send('worked')
-
-    } catch (error) {
-        next(error)
-
-    }
-})
+mediaRouter.get("/", checkMovieOnJSON, getOMDBData)
 
 export default mediaRouter
