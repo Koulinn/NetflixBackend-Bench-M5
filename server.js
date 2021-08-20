@@ -2,7 +2,7 @@ import express from 'express'
 import cors from 'cors'
 import {corsConfig} from './lib/server-config.js'
 import mediaRouter from './services/media/index.js'
-import { notFoundErrorHandler, badRequestErrorHandler, serverErrorHandler } from './lib/error-Handlers.js'
+import { notFoundErrorHandler, badRequestErrorHandler, serverErrorHandler, forbiddenRequest } from './lib/error-Handlers.js'
 
 
 const server = express()
@@ -16,6 +16,7 @@ server.use('/media', mediaRouter)
 
 // Errors middlewares
 server.use(notFoundErrorHandler)
+server.use(forbiddenRequest)
 server.use(badRequestErrorHandler)
 server.use(serverErrorHandler)
 
