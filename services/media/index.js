@@ -15,6 +15,7 @@ mediaRouter.route('/')
 mediaRouter.route('/:id')
     .put(editMovieText)
     .delete(deleteMovie)
+    // .post('/:id/poster', multer({storage:cloudinaryStorage}).single('Poster'), addPosterToJSON)
 
 
 // mediaRouter.get("/", checkMovieOnJSON, getOMDBData)
