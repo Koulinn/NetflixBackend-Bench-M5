@@ -2,7 +2,7 @@ import  express  from "express";
 import {getOMDBData, checkMovieOnJSON, editMovieText, addMovieJSON, deleteMovie, addReview, addPosterToJSON, deleteReview } from '../../lib/service-utils.js'
 import {movieFieldsValidation} from '../../lib/validations.js'
 import multer from "multer";
-import { cloudinaryStorage } from "../../lib/export-utils.js";
+import { cloudinaryStorage, createPDFPipeline } from "../../lib/export-utils.js";
 
 
 
@@ -18,6 +18,9 @@ mediaRouter.post('/:id/poster', multer({storage:cloudinaryStorage}).single('Post
 //Reviews
 mediaRouter.post('/:id/review', addReview)
 mediaRouter.delete('/:id/review/:reviewID', deleteReview)
+
+// DownloadPDF
+mediaRouter.get('/:id/pdf', createPDFPipeline)
 
 
 

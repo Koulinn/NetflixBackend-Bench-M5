@@ -2300,6 +2300,7 @@
         "Year": "1936",
         "imdbID": "tt0027687",
         "Type": "movie",
+        "Poster": "https://res.cloudinary.com/koulin/image/upload/v1629489199/Netflix-M5-Bench/yqbfya0o0ggyfbwzbjql.png",
         "reviews": [
             {
                 "comment": "laboriosam",
@@ -2331,5 +2332,194 @@
                 "createdAt": "2021-08-20T21:28:24.903Z"
             }
         ]
+    },
+    {
+        "Title": "Eragon",
+        "Year": "2006",
+        "imdbID": "tt0449010",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNzMyMGI1N2UtNzc5YS00OGNkLTg1OTktMTNkMmY2Zjk1NTQxXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Eragon",
+        "Year": "2006",
+        "imdbID": "tt0902280",
+        "Type": "game",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BN2Q2OTIzNWYtN2E3My00NDI1LThiMTQtMjM3OWIzMmY2Y2JjXkEyXkFqcGdeQXVyOTQxNzM2MjY@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Inside the Inheritance Trilogy: The Magic of 'Eragon'",
+        "Year": "2007",
+        "imdbID": "tt5258892",
+        "Type": "movie",
+        "Poster": "N/A"
+    },
+    {
+        "Title": "Eragon: The Inhabitants of Alagaesia",
+        "Year": "2007",
+        "imdbID": "tt5258968",
+        "Type": "movie",
+        "Poster": "N/A"
+    },
+    {
+        "Title": "Become the Dragon Rider: Creating the 'Eragon' Video Game",
+        "Year": "2007",
+        "imdbID": "tt5258990",
+        "Type": "movie",
+        "Poster": "N/A"
+    },
+    {
+        "Title": "The Secrets of Alagaesia: The Visual Effects of 'Eragon'",
+        "Year": "2007",
+        "imdbID": "tt5259042",
+        "Type": "movie",
+        "Poster": "N/A"
+    },
+    {
+        "Title": "A Beginner's Guide to Eragon",
+        "Year": "2016",
+        "imdbID": "tt6678404",
+        "Type": "movie",
+        "Poster": "N/A"
+    },
+    {
+        "Title": "State of Play",
+        "Year": "2009",
+        "imdbID": "tt0473705",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTI1MTQ4MDIwMl5BMl5BanBnXkFtZTcwNzgxOTc0Mg@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Child's Play",
+        "Year": "1988",
+        "imdbID": "tt0094862",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZGU1MjNiYWYtNGQ5MS00MTgzLTlkYjItZDhhNTdlMTkxZGVlL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Child's Play 2",
+        "Year": "1990",
+        "imdbID": "tt0099253",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BM2Y0NGNiNGItYzYzOS00NDk0LTkzNWUtMGZjMjc1NWM4MzE3XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Child's Play",
+        "Year": "2019",
+        "imdbID": "tt8663516",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BNTNlNjIxNjktOWUyMS00YWY5LWEwZGItMjZmODJlZWNiZGM2XkEyXkFqcGdeQXVyNDg4NjY5OTQ@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Child's Play 3",
+        "Year": "1991",
+        "imdbID": "tt0103956",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOTRjYWVhNjAtMjIwOC00NjU3LTliZTAtMjczMmEwMzQ5Y2Y3XkEyXkFqcGdeQXVyMjQwNTU1NTc@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Play Misty for Me",
+        "Year": "1971",
+        "imdbID": "tt0067588",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZjI4YTIyMWEtYjY4OS00ZDVmLWI5MjEtYmE3OGMxZDM4NmJlXkEyXkFqcGdeQXVyMTA0MjU0Ng@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Play It Again, Sam",
+        "Year": "1972",
+        "imdbID": "tt0069097",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZTI2ODBiNmQtY2RmZC00Yzg3LWI4MWYtMjE4OTA0NWRmZjY0XkEyXkFqcGdeQXVyMjUxODE0MDY@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Foul Play",
+        "Year": "1978",
+        "imdbID": "tt0077578",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BYzM5MDZiZmUtOTdhMi00NjNlLTkxOWQtNTQ4NTgxMzA2MTJjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Free to Play",
+        "Year": "2014",
+        "imdbID": "tt3203290",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTYxMjk0OTUwMF5BMl5BanBnXkFtZTgwNTY0ODIzMDE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Play It to the Bone",
+        "Year": "1999",
+        "imdbID": "tt0196857",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTM2NjY1MTA2Nl5BMl5BanBnXkFtZTYwMzY2Mzc3._V1_SX300.jpg"
+    },
+    {
+        "Title": "Ready Player One",
+        "Year": "2018",
+        "imdbID": "tt1677720",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BY2JiYTNmZTctYTQ1OC00YjU4LWEwMjYtZjkwY2Y5MDI0OTU3XkEyXkFqcGdeQXVyNTI4MzE4MDU@._V1_SX300.jpg"
+    },
+    {
+        "Title": "The Player",
+        "Year": "1992",
+        "imdbID": "tt0105151",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMjM5MDg0MjU3Ml5BMl5BanBnXkFtZTgwODQ0NjYxMTE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "How to Be a Player",
+        "Year": "1997",
+        "imdbID": "tt0119326",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BOGI1Y2RhMzgtOTRkZC00M2M3LWFmMTYtOGMwZWY3NmFlMjIxXkEyXkFqcGdeQXVyOTQ5Njc0MDU@._V1_SX300.jpg"
+    },
+    {
+        "Title": "The Player",
+        "Year": "2015",
+        "imdbID": "tt4474310",
+        "Type": "series",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ2MzEyMTE4Ml5BMl5BanBnXkFtZTgwMjgwMDI2NjE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Best Player",
+        "Year": "2011",
+        "imdbID": "tt1535615",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BODM2NjU2NTAyOV5BMl5BanBnXkFtZTcwMzExNTcyNw@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Accordion Player",
+        "Year": "1888",
+        "imdbID": "tt1758563",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZTdkMTBjZTctNjFiMy00ZWJmLTljMjctMGZkYmMyYzJkNGMyXkEyXkFqcGdeQXVyMjM0MzAyNTU@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Player",
+        "Year": "2013",
+        "imdbID": "tt2620952",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ2NzA5MTIxOV5BMl5BanBnXkFtZTcwNjYzOTM2OQ@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "The Piano Player",
+        "Year": "2002",
+        "imdbID": "tt0293509",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTI4ODA4NTQ2MF5BMl5BanBnXkFtZTcwNzQ3MzgyMQ@@._V1_SX300.jpg"
+    },
+    {
+        "Title": "The Eunuch and the Flute Player",
+        "Year": "2017",
+        "imdbID": "tt7808072",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BZWQyMjkyOTItNDU5Ny00MzY1LTk0Y2YtNzNjZTg5YmNiMTZkXkEyXkFqcGdeQXVyOTk3NTExNDE@._V1_SX300.jpg"
+    },
+    {
+        "Title": "Player 5150",
+        "Year": "2008",
+        "imdbID": "tt0906773",
+        "Type": "movie",
+        "Poster": "https://m.media-amazon.com/images/M/MV5BMTg4MjMzMTUxOF5BMl5BanBnXkFtZTcwNTEwNzU2Mw@@._V1_SX300.jpg"
     }
 ]
