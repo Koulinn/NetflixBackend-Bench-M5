@@ -8,10 +8,19 @@ import { cloudinaryStorage, createPDFPipeline } from "../../lib/export-utils.js"
 
 const mediaRouter = express.Router()
 
-mediaRouter.get("/", checkMovieOnJSON, getOMDBData)
-mediaRouter.put('/:id', editMovieText)
-mediaRouter.post('/', addMovieJSON)
-mediaRouter.delete('/:id', deleteMovie)
+mediaRouter.route('/')
+    .get(checkMovieOnJSON, getOMDBData)
+    .post(addMovieJSON)
+
+mediaRouter.route('/:id')
+    .put(editMovieText)
+    .delete(deleteMovie)
+
+
+// mediaRouter.get("/", checkMovieOnJSON, getOMDBData)
+// mediaRouter.put('/:id', editMovieText)
+// mediaRouter.post('/', addMovieJSON)
+// mediaRouter.delete('/:id', deleteMovie)
 // POSTER
 mediaRouter.post('/:id/poster', multer({storage:cloudinaryStorage}).single('Poster'), addPosterToJSON)
 
