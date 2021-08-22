@@ -1,6 +1,6 @@
 import express from 'express'
 import cors from 'cors'
-import {corsConfig} from './lib/server-config.js'
+import {corsConfig, requestSpeedLimiter} from './lib/server-config.js'
 import mediaRouter from './services/media/index.js'
 import { notFoundErrorHandler, badRequestErrorHandler, serverErrorHandler, forbiddenRequest } from './lib/error-Handlers.js'
 
@@ -8,7 +8,7 @@ import { notFoundErrorHandler, badRequestErrorHandler, serverErrorHandler, forbi
 const server = express()
 
 
-
+server.use(requestSpeedLimiter)
 server.use(express.json())
 server.use(cors(corsConfig))
 server.use('/media', mediaRouter)

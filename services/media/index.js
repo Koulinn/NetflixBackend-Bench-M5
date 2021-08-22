@@ -3,12 +3,14 @@ import {getOMDBData, checkMovieOnJSON, editMovieText, addMovieJSON, deleteMovie,
 import {movieFieldsValidation} from '../../lib/validations.js'
 import multer from "multer";
 import { cloudinaryStorage, createPDFPipeline } from "../../lib/export-utils.js";
+// import {requestSpeedLimiter} from '../../lib/server-config.js'
 
 
 
 const mediaRouter = express.Router()
 
 mediaRouter.route('/')
+    // .get(requestSpeedLimiter, checkMovieOnJSON, getOMDBData)
     .get(checkMovieOnJSON, getOMDBData)
     .post(addMovieJSON)
 
